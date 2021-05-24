@@ -1,0 +1,25 @@
+@mixin list_horizontal {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+@mixin list_between {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+  @mixin list_padding{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@mixin flex_start{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+}
+@mixin flex_end{
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+}

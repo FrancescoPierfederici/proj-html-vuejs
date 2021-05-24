@@ -1,6 +1,17 @@
 /* File generici che servono per tutto il sito */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo-resize {
+  width: 80px;
+  height: 80px;
+}
+
 .mycontainer {
-  max-width: 920px;
+  max-width: 900px;
   margin: auto;
   width: 100%;
 }
@@ -8,4 +19,34 @@
 section {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-center {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  border: 1px solid black;
+}
+header nav {
+  padding-bottom: 100px;
+}
+header li {
+  list-style: none;
+}
+header .logo-resize {
+  width: 170px;
+  height: 70px;
+}
+header .herofirst h1, header .herofirst p {
+  padding-top: 15px;
+}
+
+button {
+  background-color: #9CE0FF;
 }

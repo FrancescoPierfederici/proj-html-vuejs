@@ -1,9 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.logo-resize{
+    width:80px;
+    height:80px;
+}
+
+
 .mycontainer{
-    max-width:920px ;
+    max-width:900px ;
     margin: auto;
     width: 100%;
 }
 section{
     padding-top:$spacing * 3;
     padding-bottom:$spacing * 3;
+}
+.d-flex{
+    display: flex;
+}
+.f-center{
+    @include list_horizontal;
 }

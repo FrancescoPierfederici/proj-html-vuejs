@@ -1,13 +1,13 @@
 /* File generici che servono per tutto il sito */
-@import "partials/variables";
-@import "partials/mixins";
-@import "partials/commons";
+@import "partials/_variables";
+@import "partials/_mixins";
+@import "partials/_commons";
 
-@import "partials/header";
-@import "partials/main";
-@import "partials/footer";
+@import "partials/_header";
+@import "partials/_main";
+@import "partials/_footer";
 
 
-@import "partials/buttons";
-@import "partials/inputs";
-@import "partials/imgs";
+@import "partials/_buttons";
+@import "partials/_inputs";
+@import "partials/_imgs";
