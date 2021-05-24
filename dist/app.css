@@ -1,0 +1,11 @@
+/* File generici che servono per tutto il sito */
+.mycontainer {
+  max-width: 920px;
+  margin: auto;
+  width: 100%;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
