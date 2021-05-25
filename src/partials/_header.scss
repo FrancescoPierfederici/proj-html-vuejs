@@ -1,7 +1,11 @@
 header{
     border: 1px solid black;
+    background-image: url(../../public/img/h5-slide-3-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     nav{
         padding-bottom:100px;
+        padding-top: 10px;
     }
     li{
         list-style: none;
@@ -9,13 +13,38 @@ header{
     
     .logo-resize{
         width:170px;
-        height:70px;
+        height:90px;
     }
     .herofirst{
-        h1,p{
-             padding-top:15px;
-             
+        .circle{
+            width: 15px;
+            height:15px;
+            border-radius: 50%;
+            background-color: $text_color_g;
+            margin-bottom: 20px;
+            margin-right: 15px;
+            &:hover{
+               
+                background-color: $text_color_w;
+                
+                
+            }
         }
-       
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        h1,p{
+            padding-top:15px;  
+            color: $text_color_w;
+        }
+        p{
+            padding-bottom: $spacing*2;
+        }
+        button{
+            
+            padding:20px;
+            margin-bottom:$spacing*7;
+        }
     }
 } 

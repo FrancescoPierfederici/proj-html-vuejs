@@ -8,10 +8,12 @@
 .logo-resize {
   width: 80px;
   height: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .mycontainer {
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
   width: 100%;
 }
@@ -25,28 +27,100 @@ section {
   display: flex;
 }
 
-.f-center {
+.flex-center {
   display: flex;
   justify-content: center;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 header {
   border: 1px solid black;
+  background-image: url(/images/h5-slide-3-background.jpg?2b80b6880e8bb4743a639b2f0749814d);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 header nav {
   padding-bottom: 100px;
+  padding-top: 10px;
 }
 header li {
   list-style: none;
 }
 header .logo-resize {
   width: 170px;
-  height: 70px;
+  height: 90px;
+}
+header .herofirst .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #CECECE;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+header .herofirst .circle:hover {
+  background-color: #FFFFFF;
+}
+header .herofirst a {
+  text-decoration: none;
+  color: inherit;
 }
 header .herofirst h1, header .herofirst p {
   padding-top: 15px;
+  color: #FFFFFF;
+}
+header .herofirst p {
+  padding-bottom: 40px;
+}
+header .herofirst button {
+  padding: 20px;
+  margin-bottom: 140px;
+}
+
+.first-section {
+  padding-bottom: 100px;
+}
+.first-section li {
+  list-style: none;
+  padding: 20px 60px;
+}
+.first-section li p {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.second-section p {
+  color: gray;
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 40px;
+  padding-bottom: 35px;
+}
+.second-section a {
+  text-decoration: none;
+  color: #40C4FF;
+}
+
+.relative {
+  position: relative;
 }
 
 button {
-  background-color: #9CE0FF;
+  background-color: #40C4FF;
+  padding: 10px;
+  border: none;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.button-absolute {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.button-absolute p {
+  font-size: 18px;
 }

@@ -7,11 +7,12 @@
 .logo-resize{
     width:80px;
     height:80px;
+    object-fit: contain;
 }
 
 
 .mycontainer{
-    max-width:900px ;
+    max-width:1200px ;
     margin: auto;
     width: 100%;
 }
@@ -22,6 +23,9 @@ section{
 .d-flex{
     display: flex;
 }
-.f-center{
+.flex-center{
     @include list_horizontal;
+}
+h1{
+    font-size:50px
 }

@@ -1,0 +1,28 @@
+.first-section{
+    li{
+        list-style: none;
+        padding: 20px $spacing*3;
+        p{
+            padding-top: 30px;
+            font-size:20px
+        }
+    }
+    padding-bottom: $spacing *5;
+}
+.second-section{
+    p{
+        color: gray;
+        padding-top: $spacing;
+        font-size: $spacing;
+        line-height:40px;
+        padding-bottom:35px;
+    }
+    a{
+        text-decoration: none;
+        color: $first_color;
+        
+    }
+}
+.relative{
+    position: relative;
+}

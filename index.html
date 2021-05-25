@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,26 +13,35 @@
     <!-- fontAwesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
     <div id="app">
         <header>
             <nav class="mycontainer">
-               <!-- LOGO -->
-               <div >
-                   <img class="logo-resize" style="background-color: red;" src="public/img/logo-light.png" alt="">
-               </div>
-                
+                <!-- LOGO -->
+                <div>
+                    <img class="logo-resize" src="public/img/logo-light.png" alt="">
+                </div>
+
 
                 <!-- lista e searchbar -->
                 <ul>
-                    <li></li>
+                    <li v-for="el in navabarLink"><a :href="el.link" v-if="el.link"> {{ el.text }} </a></li>
                 </ul>
             </nav>
 
             <div class="herofirst" style="text-align: center;">
-                <h1>sdfsfdsfs</h1>
-                <p>sgdfgdgdgdgdgdgdgdgg</p>
-                <button>dfsfsff</button>
+                <h1>Contemporary Ideas</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. P Libero similique soluta enim at ullam
+                    deleniti quaerat optio obcaecati. <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Reprehenderit, odit? Fugit tenetur illo ducimus.</p>
+                <button><a href="#"><strong>REGISTER NOW</strong> </a></button>
+                <ul class="flex-center">
+                    <li class="circle"></li>
+                    <li class="circle"></li>
+                    <li class="circle"></li>
+
+                </ul>
             </div>
 
 
@@ -39,10 +49,56 @@
 
         <main>
             <!-- INDIVIDUO 9 SEZIONI NEL MAIN -->
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
+            <section class="mycontainer">
+                <ul class="first-section flex-center">
+                    <li><img src="public/img/h5-custom-icon-1.png" alt="">
+                        <p><strong>Languages</strong> </p>
+                    </li>
+                    <li><img src="public/img/h5-custom-icon-2.png" alt="">
+                        <p><strong>Software</strong> </p>
+                    </li>
+                    <li><img src="public/img/h5-custom-icon-3.png" alt="">
+                        <p><strong>Business</strong> </p>
+                    </li>
+                    <li><img src="public/img/h5-custom-icon-4.png" alt="">
+                        <p><strong>Chemistry</strong> </p>
+                    </li>
+                    <li><img src="public/img/h5-custom-icon-5.png" alt="">
+                        <p><strong>Science</strong> </p>
+                    </li>
+                    <li><img src="public/img/h5-custom-icon-6.png" alt="">
+                        <p><strong>DIY&Craft</strong> </p>
+                    </li>
+
+                </ul>
+            </section>
+            <section class="mycontainer second-section">
+                <h1>
+                    The Trusted Name <br> for In-Home Tutoring.
+
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, animi cupiditate neque, deleniti nam fugiat harum nemo ullam dolor soluta quidem facere sit impedit, veritatis modi? Esse vitae voluptatem nihil!
+                </p>
+                <a href="#"> <strong>LEARN MORE</strong> </a>
+            </section>
+            <section >
+                <div class="relative flex-center" >
+                    <img class="" src="public/img/h5-img-1.jpg" alt="">
+                    <button class="button-absolute"> <strong><p> ^ </p> TOP</strong> </button>
+                </div>
+                
+                
+            </section>
+            <section class="d-flex">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+
+                </div>
+
+            </section>
             <section></section>
             <section></section>
             <section></section>
@@ -67,4 +123,5 @@
     </div>
     <script src="myscript.js"></script>
 </body>
+
 </html>
