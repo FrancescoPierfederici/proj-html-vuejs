@@ -10,9 +10,16 @@
     object-fit: contain;
 }
 
-
+.center{
+    text-align: center;
+}
 .mycontainer{
     max-width:1200px ;
+    margin: auto;
+    width: 100%;
+}
+.mysecondcontainer{
+    max-width:920px ;
     margin: auto;
     width: 100%;
 }
@@ -25,6 +32,9 @@ section{
 }
 .flex-center{
     @include list_horizontal;
+}
+.flex-between{
+    @include list_between;
 }
 h1{
     font-size:50px

@@ -13,8 +13,8 @@
     p{
         color: gray;
         padding-top: $spacing;
-        font-size: $spacing;
-        line-height:40px;
+        font-size: 16px;
+        line-height:30px;
         padding-bottom:35px;
     }
     a{
@@ -25,4 +25,146 @@
 }
 .relative{
     position: relative;
+}
+.section-fourth{
+    .rightside{
+        padding-left:100px
+    }
+    .color-g{
+        color: gray;
+        padding-top: 15px;
+        line-height: 25px;
+    }
+}
+.righstside2{
+    div{
+        color: $first_color;
+        padding-right:80px;
+        padding-top: 30px;
+        font-size:50px;
+        p{
+            font-size: 30px;
+        }
+    }
+}
+.section-fifth{
+    background-image: url(../../public/img/h5-parallax-img-1.png);
+    background-repeat: no-repeat;
+    padding-bottom: 170px;
+    background-size: cover;
+    
+    p, h2{
+        color: white;
+        line-height: $spacing*2;
+    }
+    h2{
+        padding-top:$spacing;
+    }
+    ul{
+       margin-left:25px; 
+    }
+    .circle{
+        margin-top: 60px;
+        
+        list-style: none;
+        width: 15px;
+        height:15px;
+        border-radius: 50%;
+        background-color: $text_color_g;
+        margin-bottom: 20px;
+        margin-right: 15px;
+        &:hover{
+           
+            background-color: $text_color_w;
+            
+            
+        }
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+.section-sixth{
+    
+    
+    i{
+            color: $first_color;
+            padding-right: 10px;
+    }
+    .firstlist{
+        
+       margin-right: 200px;
+        li{
+            line-height:inherit;
+            list-style: none;
+            color: gray;
+            padding:30px;
+            border:1px solid $lightgray;
+            &:hover{
+                color: $first_color;
+                border-left: 7px solid $first_color;
+                background-color: $lightgray;
+            }
+        }
+        
+    }
+    li{
+        font-size:18px;
+        list-style: none;
+        color: gray;
+        line-height:50px;
+    }
+    p{
+        font-size: 18px;
+        color: gray;
+        padding-bottom: 100px;
+        padding-top:30px;
+        line-height:30px;
+    }
+}
+.cardtitle1{
+    p{
+        color: gray;
+        font-size:18px
+    }
+    h1,p{
+        padding-bottom:50px;
+    }
+}
+.box{
+    h2{
+        padding-top: 20px; 
+    }
+}
+.firstp{
+    color:$text_color_g;
+    padding-bottom:20px;
+}
+.secondp{
+    line-height: 30px;
+    color:gray;
+    font-size:18px;
+}
+.circle2{
+    margin-top: 60px;
+    
+    list-style: none;
+    width: 15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: $lightblue;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    &:hover{
+        background-color: $first_color;
+    }
+}
+.cards{
+    border:1px solid $text_color_g;
+    margin-right:10px;
+    background-color:$lightgray;
+    &:hover{
+        background-color: $text_color_w;
+    }
 }

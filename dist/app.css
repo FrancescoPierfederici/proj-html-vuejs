@@ -12,8 +12,18 @@
      object-fit: contain;
 }
 
+.center {
+  text-align: center;
+}
+
 .mycontainer {
   max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.mysecondcontainer {
+  max-width: 920px;
   margin: auto;
   width: 100%;
 }
@@ -32,6 +42,11 @@ section {
   justify-content: center;
 }
 
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 h1 {
   font-size: 50px;
 }
@@ -46,14 +61,29 @@ header nav {
   padding-bottom: 100px;
   padding-top: 10px;
 }
-header li {
+header nav ul {
+  line-height: 70px;
+  vertical-align: middle;
+}
+header nav li {
   list-style: none;
+  color: white;
+  padding: 15px 20px;
+}
+header nav li:hover {
+  color: #40C4FF;
+}
+header a {
+  color: inherit;
+  text-decoration: none;
 }
 header .logo-resize {
   width: 170px;
   height: 90px;
+  margin-right: 150px;
 }
 header .herofirst .circle {
+  list-style: none;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -68,9 +98,14 @@ header .herofirst a {
   text-decoration: none;
   color: inherit;
 }
+header .herofirst h1 {
+  font-size: 80px;
+  padding-bottom: 50px;
+}
 header .herofirst h1, header .herofirst p {
   padding-top: 15px;
   color: #FFFFFF;
+  line-height: 30px;
 }
 header .herofirst p {
   padding-bottom: 40px;
@@ -95,8 +130,8 @@ header .herofirst button {
 .second-section p {
   color: gray;
   padding-top: 20px;
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 30px;
   padding-bottom: 35px;
 }
 .second-section a {
@@ -108,9 +143,141 @@ header .herofirst button {
   position: relative;
 }
 
+.section-fourth .rightside {
+  padding-left: 100px;
+}
+.section-fourth .color-g {
+  color: gray;
+  padding-top: 15px;
+  line-height: 25px;
+}
+
+.righstside2 div {
+  color: #40C4FF;
+  padding-right: 80px;
+  padding-top: 30px;
+  font-size: 50px;
+}
+.righstside2 div p {
+  font-size: 30px;
+}
+
+.section-fifth {
+  background-image: url(/images/h5-parallax-img-1.png?0aa497c5a073f1b75862eaa04a7a2aab);
+  background-repeat: no-repeat;
+  padding-bottom: 170px;
+  background-size: cover;
+}
+.section-fifth p, .section-fifth h2 {
+  color: white;
+  line-height: 40px;
+}
+.section-fifth h2 {
+  padding-top: 20px;
+}
+.section-fifth ul {
+  margin-left: 25px;
+}
+.section-fifth .circle {
+  margin-top: 60px;
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #CECECE;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.section-fifth .circle:hover {
+  background-color: #FFFFFF;
+}
+.section-fifth a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-sixth i {
+  color: #40C4FF;
+  padding-right: 10px;
+}
+.section-sixth .firstlist {
+  margin-right: 200px;
+}
+.section-sixth .firstlist li {
+  line-height: inherit;
+  list-style: none;
+  color: gray;
+  padding: 30px;
+  border: 1px solid #0707020a;
+}
+.section-sixth .firstlist li:hover {
+  color: #40C4FF;
+  border-left: 7px solid #40C4FF;
+  background-color: #0707020a;
+}
+.section-sixth li {
+  font-size: 18px;
+  list-style: none;
+  color: gray;
+  line-height: 50px;
+}
+.section-sixth p {
+  font-size: 18px;
+  color: gray;
+  padding-bottom: 100px;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+.cardtitle1 p {
+  color: gray;
+  font-size: 18px;
+}
+.cardtitle1 h1, .cardtitle1 p {
+  padding-bottom: 50px;
+}
+
+.box h2 {
+  padding-top: 20px;
+}
+
+.firstp {
+  color: #CECECE;
+  padding-bottom: 20px;
+}
+
+.secondp {
+  line-height: 30px;
+  color: gray;
+  font-size: 18px;
+}
+
+.circle2 {
+  margin-top: 60px;
+  list-style: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #9CE0FF;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.circle2:hover {
+  background-color: #40C4FF;
+}
+
+.cards {
+  border: 1px solid #CECECE;
+  margin-right: 10px;
+  background-color: #0707020a;
+}
+.cards:hover {
+  background-color: #FFFFFF;
+}
+
 button {
   background-color: #40C4FF;
-  padding: 10px;
+  padding: 8px;
   border: none;
   margin-bottom: 15px;
   color: white;
@@ -122,5 +289,61 @@ button {
   top: 50%;
 }
 .button-absolute p {
-  font-size: 18px;
+  font-size: 15px;
+}
+
+.button-absolute2 {
+  position: absolute;
+  right: 0;
+  bottom: -5;
+}
+.button-absolute2 p {
+  font-size: 15px;
+}
+
+.button-absolute3 {
+  position: absolute;
+  right: 0;
+  bottom: -80px;
+}
+.button-absolute3 p {
+  font-size: 15px;
+  line-height: inherit;
+}
+
+.button1 {
+  background-color: #FFD740;
+  margin-left: 120px;
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button2 {
+  background-color: #40C4FF;
+  margin-left: 120px;
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img-resize1 {
+  height: 400px;
+}
+
+.img-size {
+  height: 300px;
+  width: 400px;
+}
+
+.box {
+  padding: 15px 15px;
+}
+
+.section-eight {
+  background-image: url(/images/page-background-img.png?94eb9913597c2b71150a5b3621146808);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
