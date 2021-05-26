@@ -57,6 +57,10 @@ h1 {
   font-size: 50px;
 }
 
+.back-color {
+  background-color: #d6f2ffa4;
+}
+
 header {
   border: 1px solid black;
   background-image: url(/images/h5-slide-3-background.jpg?2b80b6880e8bb4743a639b2f0749814d);
