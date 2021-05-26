@@ -275,6 +275,31 @@ header .herofirst button {
   background-color: #FFFFFF;
 }
 
+.firstpart h1 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.firstpart p {
+  color: #30303066;
+  padding-bottom: 100px;
+}
+
+th {
+  padding: 30px 80px;
+  border: 1px solid #0707020a;
+}
+
+td {
+  padding: 40px 80px;
+  text-align: center;
+  border: 3px solid #0707020a;
+  color: #30303066;
+}
+
+.fa-check {
+  color: #40C4FF;
+}
+
 button {
   background-color: #40C4FF;
   padding: 8px;
@@ -342,8 +367,31 @@ button {
   padding: 15px 15px;
 }
 
-.section-eight {
+.section-eight, .secondlast-section {
   background-image: url(/images/page-background-img.png?94eb9913597c2b71150a5b3621146808);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.img-absolute {
+  position: absolute;
+  right: 0;
+  top: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.img-absolute2 {
+  position: absolute;
+  right: 0;
+  top: 470px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CECECE;
+  box-shadow: 2px 2px 2px 2px #CECECE;
+  padding: 15px;
 }
