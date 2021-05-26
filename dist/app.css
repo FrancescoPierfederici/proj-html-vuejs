@@ -28,6 +28,12 @@
   width: 100%;
 }
 
+.mythirdcontainer {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+}
+
 section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -300,6 +306,37 @@ td {
   color: #40C4FF;
 }
 
+footer {
+  background-color: #3E3E3E;
+  color: #CECECE;
+  padding-bottom: 50px;
+}
+footer ul {
+  padding: 15px 15px;
+}
+footer li {
+  padding: 15px 15px;
+  list-style: none;
+  color: #FFFFFF;
+}
+footer h2 {
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+footer .col {
+  width: 20%;
+}
+footer i {
+  padding: 0px 15px;
+}
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+footer .paddingnull {
+  margin-top: -15px;
+}
+
 button {
   background-color: #40C4FF;
   padding: 8px;
@@ -354,6 +391,13 @@ button {
   padding-right: 20px;
 }
 
+.button-fixed {
+  position: fixed;
+  right: 0;
+  bottom: -15px;
+  padding: 15px;
+}
+
 .img-resize1 {
   height: 400px;
 }
@@ -394,4 +438,14 @@ button {
   border: 1px solid #CECECE;
   box-shadow: 2px 2px 2px 2px #CECECE;
   padding: 15px;
+}
+
+.footer-size {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 150px;
+}
+
+.footer-size2 {
+  width: 300px;
 }

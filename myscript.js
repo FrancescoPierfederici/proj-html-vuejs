@@ -72,8 +72,24 @@ new Vue({
         ], 
         footerLink:[
             {
+                text:" Business English ",
+                secondtext:"Preston Marshall",
+                link:"#",
 
-            }
+            },
+            {
+                text:"Social Computing ",
+                secondtext:"David Sanders",
+                link:"#",
+
+            },
+            {
+                text:"Learn Spanish ",
+                secondtext:"Jennie King",
+                link:"#",
+
+            },
+           
         ]
     },
 });
